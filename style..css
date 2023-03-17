@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ebebeb; 
+    padding: 5rem 0;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.container h2,
+.container p,
+.container button{
+    margin-bottom: 1rem;
+}
+
+.container p {
+    font-size: 10rem;
+}
+
+.container button{
+    font-size: 2rem;
+    color: #000;
+    background: transparent;
+    border: 1px solid #000;
+    padding: 4px;
+    cursor: pointer;
+}
